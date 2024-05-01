@@ -29,7 +29,6 @@ export default function Index({user}: any){
             <div className={styles.content}>
                 <Image
                     className={styles.logo}
-                    height={330}
                     width={475}
                     src={logo}
                     alt="logo"
@@ -66,10 +65,9 @@ export default function Index({user}: any){
                     <p>О команде</p>
                     <p>Помощь по сайту</p>
                 </div>
-            </div>
-
-            <div className={styles.footer}>
-                Последнее обновление 31.02.2024
+                <div className={styles.footer}>
+                    Последнее обновление 31.02.2024
+                </div>
             </div>
         </div>
     )
