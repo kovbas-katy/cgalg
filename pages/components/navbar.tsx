@@ -10,7 +10,7 @@ export default function NavBar(){
                 height={70}
                 src={logo}
                 alt="logo"
-                style={{marginLeft: '0px'}}
+                style={{marginLeft: '10px'}}
             />
             <p className={styles.navbar_seq}>A007318</p>
 
