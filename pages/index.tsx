@@ -65,9 +65,10 @@ export default function Index({user}: any){
                     <p>О команде</p>
                     <p>Помощь по сайту</p>
                 </div>
-                <div className={styles.footer}>
-                    Последнее обновление 31.02.2024
-                </div>
+                
+            </div>
+            <div className={styles.footer}>
+                Последнее обновление 31.02.2024
             </div>
         </div>
     )
