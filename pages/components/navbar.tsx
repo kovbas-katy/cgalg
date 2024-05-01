@@ -6,11 +6,11 @@ export default function NavBar(){
     return(
         <div className={styles.navbar}>
             <Image
-                width={64}
-                height={69}
+                width={100}
+                height={70}
                 src={logo}
                 alt="logo"
-                style={{marginLeft: '40px'}}
+                style={{marginLeft: '0px'}}
             />
             <p className={styles.navbar_seq}>A007318</p>
 
