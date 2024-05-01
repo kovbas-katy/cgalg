@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #3C388D;
+    display: flex;
+    position: fixed;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.navbar_seq{
+    margin: 0;
+    margin-left: 80px;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.navbar_com_select{
+    margin-left: 40px;
+    flex: 6;
+    height: 40px;
+    padding: 0 1%;
+    border: none;
+    border-right: 16px solid transparent;
+    text-overflow: ellipsis;
+    max-width: 700px;
+    
+}
+
+
+.navbar_find_block{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-left: 40px;
+    background-color: white;
+    margin-right: 40px;
+}
+
+.navbar_find_block_input{
+    flex: 1;
+    
+}
+
+.navbar_find_block_input::placeholder{
+    font-size: 12px;
+}
+
+.navbar_find_block_button{
+    width: 100px;
+    background-color: #1F1E1E;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+}
+
+.navbar_find_block_button:hover{
+    background-color: #373737;
+}
+
+.navbar_find_block_button:active{
+    background-color: #9FC53A;
+}

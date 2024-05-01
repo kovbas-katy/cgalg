@@ -1,0 +1,150 @@
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.block_seq{
+    background-color: white;
+    margin-top: 120px;
+    border: 3px solid rgba(51, 84, 161, 0.5);
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 30px 30px;
+
+}
+
+.block_seq_title{
+    height: 60px;
+    background-color: #9FC53A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom: 2px solid rgba(51, 84, 161, 0.5);
+}
+
+.block_seq_content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.block_seq_h2{
+    text-decoration: underline;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 12px;
+
+}
+
+.block_seq_p{
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    
+}
+
+.block_seq_table{
+    border-collapse: collapse;
+    border: 1px solid;
+    flex: 10;
+}
+
+.block_seq_td{
+    border: 1px solid;
+    text-align: center;
+}
+
+.block_row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 40px;
+    height: 700px;
+    margin-bottom: 80px;
+}
+
+.block_row_calc{
+    flex: 1;
+    background-color: #3C388D;
+    border-radius: 0 0 30px 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_row_calc_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+.block_row_calc_input{
+    height: 40px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: none;
+    margin-bottom: 60px;
+    border: none;
+    border-right: 16px solid transparent;
+    padding: 0 5%;
+    font-size: 15px;
+    color: #3C388D;
+
+}
+
+.block_row_calc_lable{
+    color: white;
+    font-size: 20px;
+
+}
+
+.block_row_calc_small_input{
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: none;
+}
+
+.block_row_calc_button{
+    background-color: #1F1E1E;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.block_row_calc_button:hover{
+    background-color: #373737;
+}
+.block_row_calc_button:active{
+    background-color: #9FC53A;
+}
+
+.block_row_calc_text{
+    background-color: white;
+    height: 270px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.block_seq_form{
+    padding-left: 10px;
+}
