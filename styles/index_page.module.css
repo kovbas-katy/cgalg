@@ -15,7 +15,7 @@
 
 .logo{
     max-height: 330px;
-    min-height: 100px;
+    min-height: 200px;
     margin-top: 100px;
     align-self: center;
     user-select: none;
@@ -41,8 +41,6 @@
 
 .inputBlockField{
     width: 40%;
-    max-height: 64px;
-    min-height: 20px;
     border: 3px solid #3C388D59;
     font-size: 24px;
     color: #3C388D;
